@@ -50,6 +50,6 @@ export ACCESS_TOKEN_SECRET="your access token secret"
 
 See [this section of the above tutorial](https://realpython.com/twitter-bot-python-tweepy/#creating-twitter-api-authentication-credentials) for more info on authentication credentials.
 
-##Licence
+## License
 
 This software is published under the GNU AFFERO GENERAL PUBLIC LICENSE  - See [LICENSE.md](./LICENSE.md).
