@@ -17,7 +17,7 @@ Optionally, you can install pip to handle the dependencies:
 sudo apt install python-pip
 ```
 
-Then, rquirements can be installed using pip (it is reccomended to use a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/)):
+Then, requirements can be installed using pip (it is recommended to use a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/)):
 
 ```bash
 pip install -r requirements.txt
@@ -37,8 +37,8 @@ Optionally, you can a pass the program a list of Twitter handles you want the bo
 python check_for_bobada.py -b userhandle1 userhandle2 ... userhandleN
 ```
 
-Login in your Twitter account is handled by the `config`module. This module is exactly the same as the one in [this Tweepy tutorial](https://realpython.com/twitter-bot-python-tweepy/).
-This module reads the authentication credentials from the environment variables `CONSUMER_KEY`, `CONSUMER_SECRET`, `ACCESS_TOKEN` and `ACCESS_TOKEN_SECRET`.
+Login to your Twitter account is handled by the `config`module. This module is exactly the same as the one in [this Tweepy tutorial](https://realpython.com/twitter-bot-python-tweepy/).
+It reads authentication credentials from the environment variables `CONSUMER_KEY`, `CONSUMER_SECRET`, `ACCESS_TOKEN` and `ACCESS_TOKEN_SECRET`.
 To set them, export them before running the program:
 
 ```bash
@@ -51,4 +51,5 @@ export ACCESS_TOKEN_SECRET="your access token secret"
 See [this section of the above tutorial](https://realpython.com/twitter-bot-python-tweepy/#creating-twitter-api-authentication-credentials) for more info on authentication credentials.
 
 ##Licence
+
 This software is published under the GNU AFFERO GENERAL PUBLIC LICENSE  - See [LICENSE.md](./LICENSE.md).
