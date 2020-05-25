@@ -1,6 +1,6 @@
 # dalebobot
 This is a Twitter bot that automatically replies "Dale bobo" to the people it follows. 
-It is written in python 2 using [Tweepy](https://www.tweepy.org/).
+It is written in Python 2 using [Tweepy](https://www.tweepy.org/).
 
 ## Requirements
 You need to Python 2.7 or later to run the bot. If you have an Ubutuntu distro you can install Python 2 by saying:
@@ -11,13 +11,13 @@ sudo apt install python2.7
 
 If you have Windows: why?
 
-Optionally, you can install pip to handle the dependencies:
+Optionally, you can install `pip` to handle dependencies:
 
 ```bash
 sudo apt install python-pip
 ```
 
-Then, requirements can be installed using pip (it is recommended to use a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/)):
+Then, requirements can be installed using `pip` (it is recommended to use a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/)):
 
 ```bash
 pip install -r requirements.txt
@@ -53,3 +53,7 @@ See [this section of the above tutorial](https://realpython.com/twitter-bot-pyth
 ## License
 
 This software is published under the GNU AFFERO GENERAL PUBLIC LICENSE  - See [LICENSE.md](./LICENSE.md).
+
+## Acknowledgments
+
+* [Miguel Garcia](https://github.com/miguelgarcia), for writing [this tutorial on RealPython](https://realpython.com/twitter-bot-python-tweepy/).
