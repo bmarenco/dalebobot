@@ -1,5 +1,5 @@
 # dalebobot
-This is a Twitter bot that automatically replies <<Dale bobo>> to the people it follows. 
+This is a Twitter bot that automatically replies "Dale bobo" to the people it follows. 
 It is written in python 2 using [Tweepy](https://www.tweepy.org/).
 
 ## Requirements
