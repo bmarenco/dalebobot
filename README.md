@@ -31,7 +31,7 @@ Simply run:
 python check_for_bobada.py
 ```
 
-Optionally, you can a pass the program a list of Twitter handles you want the bot to follow and reply to, using the `-b` or `--bobo_list` flag:
+Optionally, you can pass to the program a list of Twitter handles you want the bot to follow and reply to, using the `-b` or `--bobo_list` flag:
 
 ```bash
 python check_for_bobada.py -b userhandle1 userhandle2 ... userhandleN
