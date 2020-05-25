@@ -10,7 +10,6 @@ logger = logging.getLogger()
 class BobadaStreamListener(tweepy.StreamListener):
     def __init__(self, api, bobo_list):
         self.api = api
-        #self.me = api.me()
         self.bobo_list = bobo_list
         self.last_new_friends_check = time.time()
 
@@ -38,9 +37,8 @@ class BobadaStreamListener(tweepy.StreamListener):
             message = "@%s Dale bobo" %username
             logger.info("Replying to %s" % (username))
             new_tweet = self.api.update_status(status=message, in_reply_to_status_id=tweet.id)
-            # Retweet
+            # Retweet response
             if not new_tweet.retweeted:
-                # Retweet response
                 new_tweet.retweet()
             
         except tweepy.TweepError as e:
@@ -93,9 +91,6 @@ def bobo_names_to_id(api, bobo_list_names):
 
 def main(bobo_list):
     api = create_api()
-    # Bobo list has to de twitter ID's
-    # In this case maguirreh, Cybertario, igalvar, Opettinatti, grazianopascale, frascafrasca, fersantullo
-    #bobo_list_id = ["42244392","169876319", "535877103", "178120611","51016460", "15865485", "216180798"]
 
     if bobo_list is not None:
         # Convert bobo username to id
