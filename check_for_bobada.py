@@ -115,7 +115,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Twitter bot that replies <<Dale bobo>> to the list of people it follows.")
     parser.add_argument("-b", "--bobo_list", metavar="bobo_list", type=str, required=False,
                         default=None, nargs='+', action="store",
-                        help="list ofTwitter handles you want the bot to follow and reply to.\
+                        help="list of Twitter handles you want the bot to follow and reply to.\
                                 If not given, it only replies to the ones it already follows")
     
     args = parser.parse_args()
